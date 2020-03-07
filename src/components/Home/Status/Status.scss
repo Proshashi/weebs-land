@@ -1,0 +1,54 @@
+.__otaku_home-status {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 0;
+  width: fit-content;
+  box-shadow: 0.1rem 0.1rem 1rem $bg-shadow;
+  border-radius: 1rem;
+  overflow: hidden;
+  &--textBox {
+    display: inherit;
+    textarea {
+      color: $font-color-primary2;
+      background: $bg-white;
+      font-family: $font-lobsterTwo-italic;
+      margin: 0 !important;
+      padding: 1rem;
+      resize: none;
+      width: 65rem;
+      height: 10rem !important;
+      border: none !important;
+      outline: none;
+
+      &::placeholder {
+        color: $font-color-primary !important;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &--medias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: $font-color-primary;
+    button {
+      margin-left: auto;
+      background: $logo-color;
+      border: 0rem solid $logo-color !important;
+      border: none;
+      color: $font-color-primary;
+      font-family: $font-lobsterTwo-italic;
+      font-size: 1.5rem;
+      width: 8rem !important;
+      border-radius: 2rem;
+
+      &:hover {
+        background: $font-color-primary;
+        border-width: 0.1rem !important;
+      }
+    }
+  }
+}

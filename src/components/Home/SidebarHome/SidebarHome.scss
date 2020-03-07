@@ -1,0 +1,44 @@
+.__otaku_home {
+  &-sidebar {
+    width: 20rem;
+    color: gray;
+
+    &--items {
+      display: flex;
+      flex-direction: column;
+
+      &__item {
+        font-size: 2rem;
+        font-family: $font-lobster;
+        cursor: pointer;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 2rem;
+        transition: background-color ease-in-out 0.2s;
+
+        &:hover {
+          background-color: $font-color-primary;
+        }
+
+        &:hover &_icon,
+        &:hover &_text {
+          color: #fafafa !important;
+        }
+
+        &_icon {
+          color: $bg-shadow;
+          margin: 0 1rem;
+          transition: color ease-in-out 0.2s;
+        }
+
+        &_text {
+          color: $font-link-color;
+          opacity: 0.7;
+          transition: color ease-in-out 0.2s;
+        }
+      }
+    }
+  }
+}

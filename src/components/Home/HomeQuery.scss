@@ -1,0 +1,56 @@
+@media screen and (max-width: 1085px) {
+  .__otaku_home {
+    &-status {
+      &--textBox {
+        textarea {
+          width: 55rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .__otaku_home {
+    &-status {
+      &--textBox {
+        textarea {
+          width: 45rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .__otaku_home {
+    &-right {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .__otaku_home {
+    &-right {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .__otaku_home {
+    justify-content: center;
+    &-left {
+      display: none;
+    }
+
+    &-status {
+      &--textBox {
+        textarea {
+          width: 80vw !important;
+        }
+      }
+    }
+  }
+}

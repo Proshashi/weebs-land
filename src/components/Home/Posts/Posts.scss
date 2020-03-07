@@ -1,0 +1,68 @@
+.__otaku_home {
+  &-posts {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    &--post {
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 2rem;
+      box-shadow: 0.1rem 0.1rem 1rem $bg-shadow;
+      &__header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &_avatar {
+          margin: 0 1rem 0 0;
+
+          .ant-avatar {
+            background-color: $font-color-primary;
+          }
+        }
+
+        &_data {
+          display: flex;
+          flex-direction: column;
+
+          &-name {
+            font-family: $font-lobster;
+            font-size: 2rem;
+            color: $font-color-primary;
+          }
+
+          &-date {
+            font-family: $font-neuton-bold;
+            font-size: 1rem;
+            color: $font-color-primary;
+            opacity: 0.8;
+          }
+        }
+      }
+
+      &__body {
+        &_content {
+          margin: 1rem 0;
+          height: 30rem;
+          background: $logo-color;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 5rem;
+          font-family: $font-lobster;
+          color: $font-color-primary;
+        }
+      }
+
+      &__actions {
+        input[type="checkbox"] {
+          display: none;
+        }
+        svg {
+          margin: 0 1rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

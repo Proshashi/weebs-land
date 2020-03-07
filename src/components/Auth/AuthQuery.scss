@@ -1,0 +1,27 @@
+@media screen and (max-width: 680px) {
+  .__otaku {
+    &_auth {
+      &::after {
+        display: none;
+      }
+
+      &-loading {
+        &::after {
+          display: none;
+        }
+      }
+
+      &-login {
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &-signup {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

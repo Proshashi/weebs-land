@@ -1,0 +1,17 @@
+@import "./Auth/Auth.scss";
+@import "./Auth/AuthQuery.scss";
+@import "./NavBar/NavBar.scss";
+@import "./NavBar/NavBarQuery.scss";
+@import "./Home/Home.scss";
+@import "./Home/HomeQuery.scss";
+@import "./Home/Status/Status.scss";
+@import "./Home/Posts/Posts.scss";
+@import "./Home/SidebarHome/SidebarHome.scss";
+
+.__otaku {
+  &_main {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+  }
+}
