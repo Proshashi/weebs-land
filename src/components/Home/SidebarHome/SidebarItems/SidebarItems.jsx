@@ -21,7 +21,9 @@ const SidebarItems = () => {
   return (
     <div className="__otaku_home-sidebar--items">
       {items.map(({ text, avatar, link }) => {
-        return <SidebarItem text={text} avatar={avatar} link={link} />;
+        return (
+          <SidebarItem text={text} avatar={avatar} link={link} key={text} />
+        );
       })}
     </div>
   );

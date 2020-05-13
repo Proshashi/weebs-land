@@ -7,6 +7,7 @@ import {
   Router,
   Redirect
 } from "react-router-dom";
+import "rodal/lib/rodal.css";
 
 import { LogOut } from "./Auth/AuthActions";
 import AuthLoading from "./Auth/Loading/AuthLoading";
@@ -24,10 +25,6 @@ const App = props => {
   if (!props.auth.isLoaded) {
     return <AuthLoading />;
   }
-
-  const Logout = () => {
-    return <button onClick={props.LogOut}>Logout</button>;
-  };
 
   return (
     <BrowserRouter history={history}>

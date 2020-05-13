@@ -6,7 +6,7 @@ import { Home } from "../../../Includes/Icons/Icons";
 const NavHome = () => {
   return (
     <Link to="/">
-      <Home height="30" width="30" />
+      <Home height="20" width="20" />
     </Link>
   );
 };

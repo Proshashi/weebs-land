@@ -17,7 +17,7 @@
           margin: 0 1rem 0 0;
 
           .ant-avatar {
-            background-color: $font-color-primary;
+            background-color: $bg-primary;
           }
         }
 
@@ -43,14 +43,13 @@
       &__body {
         &_content {
           margin: 1rem 0;
-          height: 30rem;
-          background: $logo-color;
           display: flex;
           align-items: center;
-          justify-content: center;
-          font-size: 5rem;
-          font-family: $font-lobster;
+          font-size: 1.5rem;
+          font-family: $font-redHat;
           color: $font-color-primary;
+          padding: 0 0 0 4rem;
+          max-width: 60rem;
         }
       }
 

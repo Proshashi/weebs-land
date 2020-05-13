@@ -13,5 +13,10 @@
     height: 100vh;
     width: 100vw;
     overflow-y: auto;
+    background-color: $bg-white;
+  }
+
+  .rodal .rodal-mask {
+    opacity: 0.8;
   }
 }

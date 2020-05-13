@@ -19,7 +19,7 @@
         transition: background-color ease-in-out 0.2s;
 
         &:hover {
-          background-color: $font-color-primary;
+          background-color: $bg-primary;
         }
 
         &:hover &_icon,

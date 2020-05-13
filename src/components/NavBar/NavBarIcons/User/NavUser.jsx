@@ -62,7 +62,7 @@ const NavUser = props => {
       className="__otaku_nav-icons--user"
     >
       <span>
-        <User height="30" width="30" />
+        <User height="20" width="20" />
       </span>
     </Dropdown>
   );

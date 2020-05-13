@@ -19,6 +19,14 @@
         }
       }
     }
+
+    &-posts {
+      &--post {
+        &__body {
+          width: 40rem !important;
+        }
+      }
+    }
   }
 }
 
@@ -49,6 +57,14 @@
       &--textBox {
         textarea {
           width: 80vw !important;
+        }
+      }
+    }
+
+    &-posts {
+      &--post {
+        &__body {
+          width: calc(80vw - 5rem) !important;
         }
       }
     }

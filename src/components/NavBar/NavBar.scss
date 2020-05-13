@@ -4,8 +4,9 @@
     flex-direction: row;
     align-items: center;
     padding: 0 1rem;
-    background: $font-color-primary;
+    background: $bg-primary;
     justify-content: space-between;
+    line-height: 1;
 
     &-wrapper1 {
       display: flex;
@@ -38,17 +39,17 @@
         border-radius: 1.25rem !important;
         font-family: $font-lobster;
         width: 40rem !important;
-        background: $bg-secondary !important;
+        background: $bg-white !important;
         border: none !important;
 
         input {
           background: transparent;
           font-size: 1.5rem;
-          color: $font-color-secondary;
+          color: $bg-primary;
         }
 
         &__icon {
-          color: $font-color-secondary !important;
+          color: $bg-primary !important;
           font-size: 1.5rem;
           margin: 0 0.5rem 0 0;
         }

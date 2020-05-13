@@ -6,7 +6,7 @@ import { Create } from "../../../Includes/Icons/Icons";
 const NavCreate = () => {
   return (
     <Link to="/create">
-      <Create height="30" width="30" />
+      <Create height="20" width="20" />
     </Link>
   );
 };

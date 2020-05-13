@@ -33,20 +33,31 @@
     flex-direction: row;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: $font-color-primary;
+    background-color: $bg-primary;
     button {
       margin-left: auto;
       background: $logo-color;
-      border: 0rem solid $logo-color !important;
-      border: none;
+      border: 0.1rem solid $logo-color !important;
       color: $font-color-primary;
       font-family: $font-lobsterTwo-italic;
       font-size: 1.5rem;
       width: 8rem !important;
       border-radius: 2rem;
+      padding: 0.25rem 0;
+      cursor: pointer;
+      outline: none !important;
+
+      &:disabled {
+        opacity: 0.7;
+        cursor: default;
+
+        &:hover {
+          background: $logo-color;
+        }
+      }
 
       &:hover {
-        background: $font-color-primary;
+        background: $bg-primary;
         border-width: 0.1rem !important;
       }
     }

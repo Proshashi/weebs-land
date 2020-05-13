@@ -1,16 +1,21 @@
 import React from "react";
-import { Avatar } from "antd";
+import { Avatar, Spin } from "antd";
+import moment from "moment";
 
-const PostHeader = () => {
+const PostHeader = ({ user, postedAt }) => {
+  const date = postedAt.toDate();
+
   return (
     <div className="__otaku_home-posts--post__header">
       <div className="__otaku_home-posts--post__header_avatar">
-        <Avatar>U</Avatar>
+        <Avatar>{user.name[0]}</Avatar>
       </div>
       <div className="__otaku_home-posts--post__header_data">
-        <div className="__otaku_home-posts--post__header_data-name">Shashi</div>
+        <div className="__otaku_home-posts--post__header_data-name">
+          {user.name}
+        </div>
         <div className="__otaku_home-posts--post__header_data-date">
-          2076/2/25 15:20
+          {moment(date).calendar()}
         </div>
       </div>
     </div>
