@@ -9,7 +9,7 @@
     "antd": "^4.0.1",
     "firebase": "^7.9.3",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-images-upload": "^1.2.8",
